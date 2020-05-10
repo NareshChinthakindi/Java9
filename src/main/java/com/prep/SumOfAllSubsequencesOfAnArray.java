@@ -4,7 +4,7 @@ public class SumOfAllSubsequencesOfAnArray {
 
 
     public static void main(String[] args) {
-        int arr[] = { 1, 2, 3 };
+        int arr[] = { 1, 2 };
         int n = arr.length;
         System.out.print(findSum(arr, n));
     }
@@ -14,7 +14,7 @@ public class SumOfAllSubsequencesOfAnArray {
         int sum = 0;
 
         for (int index = 0; index < n; index++) {
-            sum = sum + arr[index];
+            sum += arr[index];
         }
 
         // Result is sum * 2^(n-1)

@@ -2,6 +2,16 @@ package com.prep;
 
 public class SubArray {
 
+//            1
+//            1 2
+//            1 2 3
+//            1 2 3 4
+//            2
+//            2 3
+//            2 3 4
+//            3
+//            3 4
+//            4
 
     public static void main(String[] args) {
 
