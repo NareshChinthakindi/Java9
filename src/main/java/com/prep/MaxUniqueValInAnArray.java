@@ -61,7 +61,7 @@ public class MaxUniqueValInAnArray {
     // Driver Code
     public static void main (String[] args)
     {
-        int []arr = { 3, 3, 3, 3 };
+        int []arr = { 3, 2, 2, 2 };
 
         // Size of the array
         int n = 4;

@@ -11,13 +11,14 @@ public class SumOfAllSubsequencesOfAnArrayTest {
 
     private static int findSum(int[] arr, int n) {
 
-      int sum  =0;
+        int sum = 0;
 
-      for(int index =0; index < n; index++) {
-          sum+= arr[index];
-      }
+        for (int index = 0; index < n; index++) {
 
-//        return sum * (int)Math.pow(2, n-1);
-      return sum * (1 << n-1);
+             sum+= arr[index];
+        }
+
+        return sum * (1<< (n-1));
+
     }
 }
